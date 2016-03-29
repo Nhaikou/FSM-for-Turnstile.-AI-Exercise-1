@@ -65,6 +65,14 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp" />
+    <ClCompile Include="Turnstile.cpp" />
+    <ClCompile Include="TurnstileFSM.cpp" />
+    <ClCompile Include="TurnstileState.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Turnstile.h" />
+    <ClInclude Include="TurnstileFSM.h" />
+    <ClInclude Include="TurnstileState.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
