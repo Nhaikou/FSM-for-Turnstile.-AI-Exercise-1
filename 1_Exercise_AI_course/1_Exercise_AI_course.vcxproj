@@ -64,13 +64,10 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="LockedState.cpp" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="TurnstileFSM.cpp" />
     <ClCompile Include="TurnstileGate.cpp" />
     <ClCompile Include="TurnstileState.cpp" />
-    <ClCompile Include="UnlockedState.cpp" />
-    <ClCompile Include="Violation.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="LockedState.h" />

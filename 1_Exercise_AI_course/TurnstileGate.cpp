@@ -1,10 +1,5 @@
 #include "TurnstileGate.h"
 
-
-TurnstileGate::TurnstileGate()
-{
-}
-
 void TurnstileGate::Lock()
 {
 	std::cout << "Gate is now locked" << std::endl;
@@ -33,9 +28,4 @@ void TurnstileGate::Thankyouoff()
 void TurnstileGate::ResetAlarm()
 {
 
-}
-
-
-TurnstileGate::~TurnstileGate()
-{
 }

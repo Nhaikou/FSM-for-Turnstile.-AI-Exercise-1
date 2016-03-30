@@ -2,7 +2,7 @@
 class Violation
 {
 public:
-	Violation();
-	~Violation();
+	Violation(){}
+	~Violation(){}
 };
 

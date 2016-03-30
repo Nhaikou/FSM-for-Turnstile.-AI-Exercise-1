@@ -24,16 +24,7 @@
     <ClCompile Include="TurnstileState.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="LockedState.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="UnlockedState.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
     <ClCompile Include="TurnstileGate.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="Violation.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>

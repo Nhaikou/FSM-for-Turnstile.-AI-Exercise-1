@@ -8,14 +8,7 @@
 class TurnstileState
 {
 public:
-	TurnstileState();
-	~TurnstileState();
 	void Coin(TurnstileFSM *tsfsm);
 	void Pass(TurnstileFSM *tsfsm);
-private:
-	LockedState *locked;
-	UnlockedState *unlocked;
-	Violation *violation;
-	
 };
 

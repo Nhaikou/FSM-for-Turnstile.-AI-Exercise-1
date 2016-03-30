@@ -7,9 +7,6 @@ class TurnstileGate;
 class TurnstileFSM // Finite state machine
 {
 public:
-	TurnstileFSM();
-	~TurnstileFSM();
-
 	virtual void Coin();
 	virtual void Pass();
 	virtual void setState(TurnstileState *tss);

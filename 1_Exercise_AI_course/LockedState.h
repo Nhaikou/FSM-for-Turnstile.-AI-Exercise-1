@@ -4,7 +4,7 @@
 class LockedState : public TurnstileState
 {
 public:
-	LockedState();
-	~LockedState();
+	LockedState(){}
+	~LockedState(){}
 };
 
