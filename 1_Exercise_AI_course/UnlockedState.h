@@ -4,6 +4,11 @@
 class UnlockedState : public TurnstileState
 {
 public:
+	UnlockedState()
+	{
+		number = UNLOCKED;
+	}
+
 	int Coin()
 	{
 		return UNLOCKED;

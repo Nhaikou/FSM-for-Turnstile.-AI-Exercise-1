@@ -54,7 +54,7 @@ public:
 		}
 		case RESET:
 		{
-			currentGate->Reset();
+			currentGate->ResetAlarm();
 			currentState = new LockedState();
 			break;
 		}

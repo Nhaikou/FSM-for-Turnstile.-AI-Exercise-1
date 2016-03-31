@@ -4,7 +4,10 @@
 class Violation : public TurnstileState
 {
 public:
-	
+	Violation()
+	{
+		number = VIOLATION;
+	}
 	int Coin()
 	{
 		return VIOLATION;

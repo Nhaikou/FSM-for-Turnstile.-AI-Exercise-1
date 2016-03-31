@@ -14,6 +14,15 @@ enum GateState
 class TurnstileState
 {
 public:
+	TurnstileState()
+	{
+		number = 0;
+	}
+	TurnstileState(int number)
+	{
+		this->number = number;
+	}
+	~TurnstileState(){}
 	virtual int Coin()
 	{
 		return 0;
@@ -30,5 +39,11 @@ public:
 	{
 		return 0;
 	}
+	virtual int getNumber()
+	{
+		return number;
+	}
+protected:
+	int number;
 };
 

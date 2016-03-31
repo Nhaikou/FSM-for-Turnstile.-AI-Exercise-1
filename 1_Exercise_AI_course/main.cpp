@@ -39,15 +39,15 @@ int main()
 		if (GetAsyncKeyState(VK_NUMPAD5))
 		{
 			tfsm.getState();
-			if (1)
+			if (tfsm.getState()->getNumber() == 1)
 			{
 				std::cout << "It's locked." << std::endl;
 			}
-			else if (2)
+			else if (tfsm.getState()->getNumber() == 2)
 			{
 				std::cout << "Gate is open." << std::endl;
 			}
-			else if (3)
+			else if (tfsm.getState()->getNumber() == 3)
 			{
 				std::cout << "THERE IS VIOLATION IN THE GATE" << std::endl;
 			}

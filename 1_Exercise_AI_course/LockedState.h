@@ -4,7 +4,10 @@
 class LockedState : public TurnstileState
 {
 public:
-
+	LockedState()
+	{
+		number = LOCKED;
+	}
 	int Coin()
 	{
 		return UNLOCKED;
