@@ -65,9 +65,6 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp" />
-    <ClCompile Include="TurnstileFSM.cpp" />
-    <ClCompile Include="TurnstileGate.cpp" />
-    <ClCompile Include="TurnstileState.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="LockedState.h" />
