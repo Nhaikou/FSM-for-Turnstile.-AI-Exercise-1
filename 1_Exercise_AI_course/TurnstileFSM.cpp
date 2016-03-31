@@ -8,12 +8,12 @@ void TurnstileFSM::setState(TurnstileState *tss)
 
 void TurnstileFSM::Coin()
 {
-
+	std::cout << "Coin placed" << std::endl;
 }
 
 void TurnstileFSM::Pass()
 {
-
+	
 }
 
 void TurnstileFSM::Reset()
