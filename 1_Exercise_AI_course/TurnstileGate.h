@@ -13,14 +13,6 @@ public:
 	{
 		std::cout << "Gate is now unlocked" << std::endl;
 	}
-	void Thankyou()
-	{
-		std::cout << "Welcome!" << std::endl;
-	}
-	void Thankyouoff()
-	{
-		std::cout << "Thank you for visiting!" << std::endl;
-	}
 	void Alarm()
 	{
 		std::cout << "ALARM TRIGGERED!" << std::endl;

@@ -22,7 +22,14 @@ int main()
 	{
 		if (GetAsyncKeyState(VK_NUMPAD1))
 		{
-			tfsm.Coin();
+			if (tfsm.getState()->getNumber() == 1)
+			{
+				tfsm.Coin();
+			}
+			else if (tfsm.getState()->getNumber() == 2)
+			{
+				std::cout << "Thank you!" << std::endl;
+			}
 		}
 		else if (GetAsyncKeyState(VK_NUMPAD2))
 		{
@@ -30,7 +37,14 @@ int main()
 		}
 		else if (GetAsyncKeyState(VK_NUMPAD3))
 		{
-			tfsm.Reset();
+			if (tfsm.getState()->getNumber() == 3)
+			{
+				tfsm.Reset();
+			}
+			else
+			{
+				std::cout << "There is nothing to reset..." << std::endl;
+			}
 		}
 		else if (GetAsyncKeyState(VK_NUMPAD4))
 		{
@@ -38,7 +52,6 @@ int main()
 		}
 		if (GetAsyncKeyState(VK_NUMPAD5))
 		{
-			tfsm.getState();
 			if (tfsm.getState()->getNumber() == 1)
 			{
 				std::cout << "It's locked." << std::endl;
